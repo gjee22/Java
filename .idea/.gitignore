@@ -6,3 +6,5 @@
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+# Database connection file including personal details
+../src/designpattern/singleton/MySQLSingleton.java
