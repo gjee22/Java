@@ -1,13 +1,15 @@
 package designpattern.singleton;
 
-public class Singleton {
+class Singleton {
 
     private String attr = "Is this a singleton?";
 
     private static class SingletonHolder {
+        //  변경되지 않게 파이널 선언
         private static final Singleton INSTANCE = new Singleton();
     }
 
+    // Singleton
     public static Singleton getInstance() {
         return SingletonHolder.INSTANCE;
     }
