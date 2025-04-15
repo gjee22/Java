@@ -9,7 +9,7 @@ class Singleton {
         private static final Singleton INSTANCE = new Singleton();
     }
 
-    // Singleton
+    // Singleton 인스턴스를 다음 메소드를 통해서만 받을 수 있게 함
     public static Singleton getInstance() {
         return SingletonHolder.INSTANCE;
     }
